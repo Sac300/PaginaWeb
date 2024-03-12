@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+.logo {
+    width: 140px;  /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener las proporciones de la imagen */
+}
+.descripcion {
+    font-family:'Times New Roman', Times, serif ;
+
+    font-size: 20px; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la letra */
+    color: #2309b9bb; /* Color de la letra */
+}
+.descripcion2 {
+    font-family:'Times New Roman', Times, serif ;
+
+    font-size: 20px; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la letra */
+    color: #b15d18bb; /* Color de la letra */
+}
+
+.descripcion3 {
+    font-family:'Times New Roman', Times, serif ;
+
+    font-size: 20px; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la letra */
+    color: #666666bb; /* Color de la letra */
+}
+
+
+.product {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.comprar-button {
+    background-color: #008CBA; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 12px 24px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas el mouse sobre el botón */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+.comprar-button:hover {
+    background-color: #df0000c4; /* Cambia el color de fondo cuando pasas el mouse sobre el botón */
+}
+
+
+.comprar-button2 {
+    background-color: #008CBA; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 12px 24px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas el mouse sobre el botón */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+.comprar-button2:hover {
+    background-color: #e75e0fc4; /* Cambia el color de fondo cuando pasas el mouse sobre el botón */
+}
+
+.comprar-button3 {
+    background-color: #008CBA; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 12px 24px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas el mouse sobre el botón */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+.comprar-button3:hover {
+    background-color: #818181c4; /* Cambia el color de fondo cuando pasas el mouse sobre el botón */
+}
