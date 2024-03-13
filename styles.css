@@ -1,3 +1,6 @@
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,6 +11,23 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
 }
+.product-container {
+    display: flex;
+    justify-content: space-around; /* Esto añade espacio alrededor de los elementos */
+    flex-wrap: wrap; /* Esto permite que los elementos se ajusten a la siguiente línea si no hay suficiente espacio */
+}
+.titulo {
+    font-family:'Times New Roman', Times, serif;
+
+    text-align: center;
+    font-size: 100px; /* Ajusta el tamaño del texto según tus necesidades */
+    font-weight: bold; /* Ajusta el grosor del texto según tus necesidades */
+    margin-bottom: 20px; /* Añade un margen en la parte inferior para separar el título de los recuadros */
+}
+
+.product.spin {
+    animation: spin 2s linear;
+}
 
 
 .product-image {
@@ -15,8 +35,8 @@ body {
     height: auto;
 }
 .logo {
-    width: 140px;  /* Ancho de la imagen */
-    height: auto; /* Altura automática para mantener las proporciones de la imagen */
+    width: 140px;  
+    height: auto; 
 }
 .descripcion {
     font-family:'Times New Roman', Times, serif ;
@@ -28,25 +48,33 @@ body {
 .descripcion2 {
     font-family:'Times New Roman', Times, serif ;
 
-    font-size: 20px; /* Tamaño de la letra */
-    font-weight: bold; /* Grosor de la letra */
-    color: #b15d18bb; /* Color de la letra */
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #b15d18bb; 
 }
 
 .descripcion3 {
     font-family:'Times New Roman', Times, serif ;
 
-    font-size: 20px; /* Tamaño de la letra */
-    font-weight: bold; /* Grosor de la letra */
-    color: #666666bb; /* Color de la letra */
+    font-size: 20px;
+    font-weight: bold; 
+    color: #666666bb; 
+}
+
+.descripcion4 {
+    font-family:'Times New Roman', Times, serif ;
+
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #034e07bb; 
 }
 
 
 .product {
     border: 1px solid #000;
-    margin: 10px;
-    padding: 10px;
-    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    width: 300px;
     text-align: center;
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
@@ -93,4 +121,18 @@ body {
 
 .comprar-button3:hover {
     background-color: #818181c4; /* Cambia el color de fondo cuando pasas el mouse sobre el botón */
+}
+
+.comprar-button4 {
+    background-color: #008CBA; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 12px 24px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas el mouse sobre el botón */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+.comprar-button4:hover {
+    background-color: #0e4702fd; /* Cambia el color de fondo cuando pasas el mouse sobre el botón */
 }
